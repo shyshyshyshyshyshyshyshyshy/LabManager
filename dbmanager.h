@@ -26,7 +26,7 @@ public:
         database = QSqlDatabase::addDatabase("QSQLITE");
         QString aFile = "C:/Users/86176/Desktop/lab_management1.db";
         database.setDatabaseName(aFile);
-//1
+
         if(!database.open()) {
             qDebug() << "failed to open database";
         } else {
