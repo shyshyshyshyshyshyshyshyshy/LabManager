@@ -20,7 +20,7 @@ public:
 
     QSqlTableModel *deviceTabModel;
     QSqlTableModel *recordsTabModel;
-    QItemSelectionModel *theDeviceSelection;
+    QItemSelectionModel *theDeviceSelection;//1
 
     void initDatabase() {
         database = QSqlDatabase::addDatabase("QSQLITE");
