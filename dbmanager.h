@@ -23,7 +23,7 @@ public:
     QItemSelectionModel *theDeviceSelection;
 
     void initDatabase() {
-        database = QSqlDatabase::addDatabase("QSQLITE");
+        database = QSqlDatabase::addDatabase("QSQLITE");//1
         QString aFile = "C:/Users/86176/Desktop/lab_management1.db";
         database.setDatabaseName(aFile);
 
