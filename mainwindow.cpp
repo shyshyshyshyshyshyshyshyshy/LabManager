@@ -32,7 +32,7 @@ MainWindow::MainWindow(QWidget *parent)
         // 视觉调整：已预约数(6) 移到 当前状态(5) 之前
         ui->tableView->horizontalHeader()->moveSection(6, 5);
     }
-}
+}//1
 
 MainWindow::~MainWindow() {
     delete ui;
