@@ -14,7 +14,7 @@ DialogAddDevice::~DialogAddDevice()
 {
     delete ui;
 }
-
+//1
 QVariantMap DialogAddDevice::getDeviceData() const
 {
     QVariantMap data;
