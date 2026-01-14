@@ -16,7 +16,7 @@ void StatsWorker::doWork() {
             emit resultReady("无法连接数据库");
             return;
         }
-
+//1
         QSqlQuery query(db);
         QString report = "库存实时统计:\n";
         if (query.exec("SELECT name, current_qty FROM devices")) {
