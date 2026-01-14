@@ -49,7 +49,7 @@ public:
                    "reason TEXT, "
                    "report_time DATETIME)");
         }
-    }
+    }//1
 
     bool initDeviceModel() {
         if (!database.isOpen()) return false;
