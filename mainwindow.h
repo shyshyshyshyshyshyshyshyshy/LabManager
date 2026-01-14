@@ -22,6 +22,7 @@ private slots:
     void on_btnReportFault_clicked();  // 报修按钮
     void on_btnAddDevice_clicked();    // 新增设备按钮
     void on_btnReturn_clicked();       // 新增归还槽函数
+    //1
 
     void on_btnRefresh_clicked();
 
