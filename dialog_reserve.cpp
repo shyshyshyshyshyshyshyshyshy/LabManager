@@ -32,7 +32,7 @@ void DialogReserve::initDeviceList()
         ui->comboName->addItem(query.value(0).toString());
     }
 }
-
+//1
 QString DialogReserve::getDevice() const
 {
     return ui->comboName->currentText();
