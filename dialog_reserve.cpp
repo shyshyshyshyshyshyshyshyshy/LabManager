@@ -18,7 +18,7 @@ DialogReserve::DialogReserve(QWidget *parent) :
 
     initDeviceList();
 }
-
+//1
 DialogReserve::~DialogReserve()
 {
     delete ui;
