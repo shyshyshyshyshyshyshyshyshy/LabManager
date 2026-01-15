@@ -26,6 +26,6 @@ void StatsWorker::doWork() {
         }
         emit resultReady(report);
         db.close();
-    }//1
+    }//1111
     QSqlDatabase::removeDatabase(connName);
 }
